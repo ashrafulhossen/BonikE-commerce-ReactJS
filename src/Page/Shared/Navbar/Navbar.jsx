@@ -9,12 +9,12 @@ const Navbar = () => {
 		<div className="navbar">
 			<div className="container">
 				<div>
-					<div className="category">
+					<button className="category-btn">
 						<span>
 							<FaTable /> <span>Category</span>
 						</span>
 						<FaChevronDown />
-					</div>
+					</button>
 				</div>
 				<ul className="menubar">
 					<li>
