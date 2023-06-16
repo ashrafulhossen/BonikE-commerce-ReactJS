@@ -1,0 +1,43 @@
+.navbar {
+	padding: 15px;
+	/* border: 1px solid #666; */
+	box-shadow: 0px 0px 20px #92929257;
+}
+
+.navbar .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .menubar {
+	display: flex;
+	gap: 20px;
+}
+
+.navlink {
+	color: #222;
+	font-size: 19px;
+	font-weight: 400;
+}
+
+.active-navlink {
+	color: #14c100;
+}
+
+.navbar .category {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	padding: 15px 20px;
+	background-color: #f3f9ff;
+	border-radius: 5px;
+}
+
+.navbar .category > span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
