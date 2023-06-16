@@ -1,0 +1,72 @@
+.search .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 10px;
+}
+
+.search-bar{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #aaa;
+}
+
+.search-bar > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.search-bar input {
+    padding: 10px ;
+    outline: none;
+    font: 20px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.search-bar p {
+    border-left: 2px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.search .container > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.search .container > ul button {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 999999px;
+    cursor: pointer;
+}
+
+.search .shopping-cart {
+    position: relative;
+}
+
+.search .shopping-cart p {
+    position: absolute;
+    content: "";
+    top: -4px;
+    right: -2px;
+    width: 18px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 999999px;
+    color: #fff;
+    background-color: red;
+}
